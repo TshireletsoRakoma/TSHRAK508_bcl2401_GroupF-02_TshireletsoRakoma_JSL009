@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box; /* This sets the box-sizing property to border-box for all elements */
+}
+
+body {
+    margin: 0; /* This sets the margin of the body element to 0 */
+    background: no-repeat center center fixed; /* This sets the background of the body element to a center-centered, fixed image */
+    background-size: cover; /* This sets the background size to cover the entire element */
+    color: white; /* This sets the text color to white */
+    font-family: Arial, Helvetica, sans-serif; /* This sets the font to Arial */
+    text-shadow: 0px 0px 20px #242424; /* This adds a text shadow to the body element */
+}
+
+main {
+    padding: 15px; /* This adds padding to the main element */
+    height: 100vh; /* This sets the height of the main element to the full height of the viewport */
+    display: flex; /* This sets the display property of the main element to flex */
+    flex-direction: column; /* This sets the flex direction to column */
+    justify-content: space-between; /* This sets the justification to space-between */
+}
+
+div.top {
+    display: flex; /* This sets the display property of div elements with the class "top" to flex */
+    justify-content: space-between; /* This sets the justification to space-between */
+}
+
+h1.time {
+    text-align: center; /* This sets the text alignment to center */
+    font-size: 5rem; /* This sets the font size to 5rem */
+}
+
+div#crypto {
+    font-size: 1.3rem; /* This sets the font size of div elements with the id "crypto" to 1.3rem */
+}
+
+div#crypto > p {
+    margin: 0; /* This sets the margin of p elements that are direct children of div elements with the id "crypto" to 0 */
+}
+
+div#crypto-top {
+    display: flex; /* This sets the display property of div elements with the id "crypto-top" to flex */
+    align-items: center; /* This sets the alignment to center */
+    margin-bottom: 5px; /* This sets the margin bottom to 5px */
+}
+
+div#crypto-top > span {
+    margin-left: 10px; /* This sets the margin left of span elements that are direct children of div elements with the id "crypto-top" to 10px */
+}
+
+div#weather {
+    display: flex; /* This sets the display property of div elements with the id "weather" to flex */
+    align-items: center; /* This sets the alignment to center */
+    flex-wrap: wrap; /* This sets the flex wrap to wrap */
+    justify-content: flex-end; /* This sets the justification to flex-end */
+    align-self: flex-start; /* This sets the alignment to flex-start */
+    margin-top: -20px; /* This sets the margin top to -20px */
+}
+
+div#weather > img {
+    width: 70px; /* This sets the width of img elements that are direct children of div elements with the id "weather" to 70px */
+}
+
+p.weather-city {
+    width: 100%; /* This sets the width of p elements with the class "weather-city" to 100% */
+    text-align: right; /* This sets the text alignment to right */
+    margin: 0; /* This sets the margin of p elements with the class "weather-city" to 0 */
+    margin-top: -10px; /* This sets the margin top of p elements with the class "weather-city" to -10px */
+    font-size: 1.2rem; /* This sets the font size of p elements with the class "weather-city" to 1.2rem */
+}
+
+p.weather-temp {
+    margin: 0; /* This sets the margin of p elements with the class "weather-temp" to 0 */
+    font-size: 1.7rem; /* This sets the font size of p elements with the class "weather-temp" to 1.7rem */
+    margin-left: -10px; /* This sets the margin left of p elements with the class "weather-temp" to -10px */
+}
+
+p#author {
+    font-size: 1rem; /* This sets the font size of p elements with the id "author" to 1rem */
+}
